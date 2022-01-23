@@ -1,0 +1,40 @@
+body {
+	background:#f0f4f8;
+    padding: 0;
+    margin:0;
+	min-height: 100%;
+	position: relative;
+    line-height:$base-height;
+    font-size: $base-font-size-14;
+    font-family:$base-font-family;
+    color: $color-black;
+    text-rendering: optimizeLegibility;
+     -webkit-text-size-adjust: none;
+     font-weight: 300;
+    /*-webkit-font-smoothing: antialiased;*/
+    &.scrollhidden{
+    	overflow:hidden;
+        position:absolute;
+        width:100%;
+    }
+}
+
+.block{ 
+	display:block; 
+	width: 100%;
+}
+a{
+	&:hover{ 
+     text-decoration: none;
+	}
+}
+.hide{
+	display: none;
+}
+.text-blue{
+	color: $color-blue !important; 
+}
+.text-gray{
+	color: $color-gray !important; 
+}
+

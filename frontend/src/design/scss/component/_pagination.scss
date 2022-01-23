@@ -1,0 +1,53 @@
+.c-pagination{
+	@include clearfix();
+	text-align:center;
+	margin:20px 0; 
+	.c-pagination__content{
+		@include bp(tablet) {
+			float:right;
+		}
+	}
+	.c-pagination__text{
+		display:block;
+		font-size:13px;
+		font-weight:600;
+		margin:0 0 10px 0;
+		@include bp(tablet) {
+			float:left;
+			margin:8px 20px 0 0;
+		}
+	}
+	.c-pagination__button{
+		@include bp(tablet) {
+			float:left;
+		}
+		.c-btn{
+			margin:0 5px;
+		}
+	} 
+	.c-paging{
+		@include clearfix();
+		li{
+			float:left;
+			margin:0 5px 0 0;
+			a{
+				display:block;
+				width:30px;
+				height:30px;
+				text-align:center;
+				line-height:28px;
+				color:$color-base;
+				border:1px solid darken($color-light-gray, 10%);
+				border-radius: $base-radius;
+				&:hover , &.is-active{
+					background:$color-light-gray;
+					color:$color-blue;
+				}
+			}
+			.c-btn-simple {
+				width: auto !important;
+				padding: 0 10px;
+			}
+		}
+	}
+}

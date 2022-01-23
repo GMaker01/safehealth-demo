@@ -1,0 +1,62 @@
+footer {
+    -webkit-transition: -webkit-transform .3s ease-in-out, margin .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out, margin .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out, margin .3s ease-in-out;
+    transition: transform .3s ease-in-out, margin .3s ease-in-out;
+    margin-top: 20px;
+    background: #fff;
+    padding: 15px 0;
+    color: #444;
+    font-size: 13px;
+    .footer-nav {
+        border-bottom: 1px solid $color-light-gray;
+        padding: 0 0 15px 0;
+        margin-bottom: 15px;
+        li {
+            display: inline-block;
+            border-left: 1px solid $color-mid-gray;
+            padding: 0 15px;
+            line-height: 1;
+            &:first-child {
+                padding-left: 0;
+                border-left: 0;
+            }
+            a {
+                color: #999999;
+                &:hover {
+                    color: #436eee;
+                }
+            }
+        }
+    }
+    .bottom-social-icons {
+        text-align: right;
+    }
+}
+
+.bottom-social-icons {
+    a {
+        color: #fff;
+        text-align: center;
+        width: 32px;
+        line-height: 32px;
+        border-radius: 50%;
+        background: #444;
+        display: inline-block;
+        height: 32px;
+        position: relative;
+        overflow: hidden;
+    }
+    .facebook {
+        background-color: #3b5998;
+    }
+    .twitter {
+        background-color: #55acee;
+    }
+    .google-plus {
+        background-color: #dd4b39;
+    }
+    .linkedin {
+        background-color: #007bb5;
+    }
+}

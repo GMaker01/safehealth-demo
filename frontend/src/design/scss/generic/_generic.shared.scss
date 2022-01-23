@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5, h6, dl,
+blockquote, p, address,
+hr,
+fieldset,
+pre {
+    margin-bottom: $base-spacing-unit;
+}
+
+dd {
+    margin-left: $base-spacing-unit;
+}
+
+figure {
+  margin:0;
+  padding:0;
+}
+
+sup{
+	color:$color-red;
+	line-height: normal;
+}
+
+.error{ 
+	padding:5px 0 0 0;
+	font-size:$base-font-size-12;
+	display:none;
+} 
+.normal-weight{
+	font-weight:normal;
+} 
+ 
+.label{
+    font-size:$base-font-size;
+    font-weight:600;
+    @include bp(tablet) {
+        font-size:$base-font-size;
+    }
+}
+ 
+ 

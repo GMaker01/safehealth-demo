@@ -1,0 +1,66 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+      "dev": "vue-cli-service serve --mode development --open",
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build --mode production",
+      "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.19",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.8.0",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.11",
+    "underscore.string": "^3.3.5",
+    "vee-validate": "^2.2.3",
+    "vue": "^2.6.10",
+    "vue-cli-plugin-pug": "^1.0.7",
+    "vue-moment": "^4.0.0",
+    "vue-multiselect": "^2.1.4",
+    "vue-router": "^3.0.6",
+    "vuex": "^3.1.0",
+    "vuex-router-sync": "^5.0.0"
+},
+"devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "@vue/cli-service": "^3.6.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-template-compiler": "^2.5.21"
+},
+"eslintConfig": {
+    "root": true,
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+        "parser": "babel-eslint"
+    }
+},
+"postcss": {
+    "plugins": {
+        "autoprefixer": {}
+    }
+},
+"browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+]
+}

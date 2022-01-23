@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+	outline:none;
+    cursor:pointer; 
+	@include transition(all .3s);
+    &:hover,
+    &:focus { 
+        outline:none;
+    }
+    &:active , &:visited {
+        text-decoration: none;
+        outline:none;
+    }
+}
+.link{
+	color: $color-blue;
+    font-weight:500;
+    cursor: pointer;
+}

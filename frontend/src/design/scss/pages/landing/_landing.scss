@@ -1,0 +1,49 @@
+.about-us{
+	background:$color-white;
+	padding: 60px 0;
+	.about-logo{
+		text-align: right;
+		padding-top: 20px;
+		margin-left: 50px;
+		@include bp(tablet) {
+			margin-left: 0px;
+			text-align: center;
+		}
+	}
+}
+.c-title {
+	font-size: $base-font-size-22;
+	position: relative;
+	padding-top: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+    color: $color-black;
+	&:before{
+		position: absolute;
+		top:0;
+		content:'';
+		height: 2px;
+		width: 50px;
+		background:$color-blue;
+	}
+}
+.reach-us{ 
+	padding: 60px 0;
+	text-align: center;
+	.reach-box{
+		margin: 20px 0;
+		position:relative;
+		display: block;
+		&:after{
+			display:block;
+			content:'';
+			clear:both;
+		}
+		a{
+			color: $color-black;
+		}
+	}
+}
+ 
+
+ 
